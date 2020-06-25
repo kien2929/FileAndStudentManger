@@ -1,0 +1,2 @@
+rootProject.name='Manager Student'
+include ':app'

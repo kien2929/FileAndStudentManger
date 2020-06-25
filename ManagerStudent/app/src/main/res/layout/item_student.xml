@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/mssv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="MSSV:"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mssv"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:text="Name:"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Address:"/>
+
+    <TextView
+        android:id="@+id/tv_mssv"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/mssv"
+        android:layout_marginTop="5dp"
+        android:text="20160723"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/mssv"
+        android:layout_below="@+id/mssv"
+        android:layout_marginTop="5dp"
+        android:text="Pham Ngoc Du"/>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/mssv"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="5dp"
+        android:text="Thai Binh"/>
+
+    <TextView
+        android:id="@+id/birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_name"
+        android:layout_marginTop="5dp"
+        android:text="Date Of Birth: "/>
+    
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_toEndOf="@id/tv_name"
+        android:layout_below="@id/birth"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/birth"
+        android:layout_marginTop="5dp"
+        android:text="29/11/1998"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/email"
+        android:layout_below="@id/tv_date"
+        android:layout_marginTop="5dp"
+        android:text="ngocdu12a1@gmai.com"/>
+</RelativeLayout>

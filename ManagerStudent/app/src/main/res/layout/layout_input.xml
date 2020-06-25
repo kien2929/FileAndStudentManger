@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/input_name"
+        android:layout_width="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_height="wrap_content"
+        android:text="NAME:"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_name"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/input_email"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edt_name"
+        android:text="EMAIL:"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_email"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/input_address"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edt_email"
+        android:text="ADDRESS:"/>
+
+    <EditText
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_address"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/input_date"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edt_address"
+        android:text="DATE OF BIRTH:"/>
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_date"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/input_mssv"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edt_date"
+        android:text="MSSV:"/>
+
+    <EditText
+        android:id="@+id/edt_mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_mssv"
+        android:layout_marginStart="10dp"/>
+
+
+</RelativeLayout>
